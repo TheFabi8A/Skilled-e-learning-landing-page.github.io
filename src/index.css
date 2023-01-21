@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --blue-hover: #666ca3;
+    --blue: #13183f;
+    --text-gray: #83869a;
+    --main-orange: #f74780;
+    --main-pink: #ffa7c3;
+    --white: #fff;
+    --primary-gradient: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+    --secondary-gradient: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+}
+
+picture > img {
+    width: 100%;
+}
+
+[class^="container-logo"] {
+    position: relative;
+    z-index: -5;
+    padding: 0 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[class^="logo"] {
+    height: 25px;
+}
+
+[class^="button"] {
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 1.25em;
+    height: 50px;
+    width: 150px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.button-dark {
+    background: var(--blue);
+}
+
+.button-gradient-main {
+    background: var(--primary-gradient);
+}
+
+.container-info {
+    max-width: 350px;
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+    padding: 10px;
+}
+
+.title-main {
+    font-weight: 800;
+    font-size: 3em;
+    color: var(--blue);
+}
+
+.paragraph-main {
+    color: var(--text-gray);
+}
+
+/* card */
+.container-cards {
+    padding: 56px 0;
+    background-color: #eceefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 56px;
+}
+
+.card:first-child {
+    background: var(--primary-gradient);
+    font-size: 2em;
+    color: var(--white);
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+[class^="card"] {
+    margin: 10px;
+    padding: 25px;
+    padding-top: 42px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 10px;
+    max-width: 325px;
+    max-height: 300px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.img-card {
+    position: absolute;
+    top: -28px;
+    left: 28px;
+}
+
+.title-card {
+    color: var(--blue);
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.paragraph-card {
+    color: var(--text-gray);
+}
+
+.link-card {
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--main-orange);
+    font-size: 1.25em;
+}
+
+.button-white {
+    background: var(--secondary-gradient);
+}
+
+.container-logo-white {
+    background-color: var(--blue);
+    height: 125px;
+}
+
+.container-absolute {
+    position: relative;
+    max-width: 1440px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    [class^="container-logo"] {
+        padding: 0 50px;
+    }
+
+    .main {
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-info {
+        padding: 50px;
+    }
+
+    picture > img {
+        width: 75%;
+        position: absolute;
+        right: -235px;
+        top: -70px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main {
+        height: 500px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    [class^="container-logo"] {
+        padding: 0 150px;
+    }
+
+    .container-info {
+        padding-left: 150px;
+    }
+
+    picture > img {
+        width: 50%;
+        position: absolute;
+        right: -150px;
+        top: -150px;
+        z-index: 5;
+    }
+}
