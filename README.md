@@ -38,7 +38,4 @@ Users should be able to:
 - Flexbox
 
 ## Author
-
-- Website - [Treasure Kabareebe](https://trekab.io/)
-- Frontend Mentor - [@trekab](https://www.frontendmentor.io/profile/trekab)
-- LinkedIn - [Treasure Kabareebe](https://www.linkedin.com/in/treasure-kabareebe/)
+- Frontend Mentor - [@trekab](https://thefabi8a.github.io/Skilled-e-learning-landing-page.github.io/)
