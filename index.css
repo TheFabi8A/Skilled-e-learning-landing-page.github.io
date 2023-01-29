@@ -41,7 +41,7 @@ picture > img {
     height: 25px;
 }
 
-[class^="button"] {
+[class*="button"] {
     color: var(--white);
     border-radius: 25px;
     font-size: 1.25em;
@@ -49,7 +49,6 @@ picture > img {
     width: 150px;
     text-transform: capitalize;
     font-weight: 800;
-    cursor: pointer;
 }
 
 .button-dark {
