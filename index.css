@@ -134,7 +134,6 @@ picture > img {
     text-decoration: none;
     color: var(--main-orange);
     font-size: 1.25em;
-    outline: 1px solid blue;
 }
 
 .button-white {
