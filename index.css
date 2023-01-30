@@ -26,6 +26,16 @@ body {
     margin: 0 auto;
 }
 
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--primary-gradient);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
 picture > img {
     width: 100%;
 }
