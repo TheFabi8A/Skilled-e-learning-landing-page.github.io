@@ -30,14 +30,14 @@ picture > img {
 }
 
 :root {
-    --blue-hover: #666ca3;
-    --blue: #13183f;
-    --text-gray: #83869a;
-    --main-orange: #f74780;
-    --main-pink: #ffa7c3;
-    --white: #fff;
-    --primary-gradient: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
-    --secondary-gradient: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+    --blue-hover: rgb(102 108 163);
+    --blue: rgb(19 24 63);
+    --text-gray: rgb(131 134 154);
+    --main-orange: rgb(247 71 128);
+    --main-pink: rgb(255 167 195);
+    --white: rgb(255 255 255);
+    --primary-gradient: linear-gradient(180deg, rgb(255 111 72) 0.04%, rgb(240 42 166) 100%);
+    --secondary-gradient: linear-gradient(180deg, rgb(72 81 255) 0%, rgb(240 42 166) 99.92%);
 }
 
 [class^="container-logo"] {
