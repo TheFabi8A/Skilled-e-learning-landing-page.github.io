@@ -21,6 +21,9 @@
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 14px;
+    max-width: 1440px;
+    overflow-x: hidden;
+    margin: 0 auto;
 }
 
 picture > img {
@@ -29,7 +32,7 @@ picture > img {
 
 [class^="container-logo"] {
     position: relative;
-    z-index: -5;
+    z-index: 10;
     padding: 0 10px;
     height: 80px;
     display: flex;
@@ -49,6 +52,7 @@ picture > img {
     width: 150px;
     text-transform: capitalize;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .button-dark {
@@ -142,13 +146,6 @@ picture > img {
 .container-logo-white {
     background-color: var(--blue);
     height: 125px;
-}
-
-.container-absolute {
-    position: relative;
-    max-width: 1440px;
-    overflow-x: hidden;
-    margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
